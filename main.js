@@ -7,7 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
   //     });
 
   // Load footer
-  fetch("_includes/footer.html")
+  fetch(
+    "https://github.com/ProvSec2024/ProvSec2024/blob/main/_includes/footer.html"
+  )
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("footer").innerHTML = data;
