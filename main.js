@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   )
     .then((response) => response.text())
     .then((data) => {
-      document.getElementById("header-placeholder").innerHTML = data;
+      document.getElementById("header").innerHTML = data;
     });
 
   // Load footer set no-cors to avoid CORS error
