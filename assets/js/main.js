@@ -21,7 +21,7 @@ $(document).ready(function () {
       document.getElementById("subtitle").innerText = index_json["subtitle"];
       document.getElementById("location").innerText = index_json["location"];
       document.getElementById("date").innerText = index_json["date"];
-      document.getElementById("hoster").innerText = index_json["hoster"];
+      document.getElementById("hoster").innerText = index_json["location"];
     })
     .fail(function (jqxhr, textStatus, error) {
       console.log("Error reading JSON file: " + error);
