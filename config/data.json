@@ -1,11 +1,16 @@
 {
   "index": {
     "title": "The 18th International Confence on Provable and Practical Security",
-    "subtitle": "ProvSec 2024",
+    "subtitle": "(ProvSec 2024)",
     "location": "Gold Coast, Australia",
     "date": "25-27 Sep, 2024",
     "hoster": "Griffith University"
   },
-  "cfp": {},
+  "cfp": {
+    "sub_date": "15 May 2024",
+    "notification_date": "30 June 2024",
+    "camera_ready_date": "20 July 2024",
+    "conference_date": "25-27 September, 2024"
+  },
   "committee": {}
 }
