@@ -13,14 +13,19 @@ $(document).ready(function () {
       document.getElementById("footer").innerHTML = data;
     });
 
-  // read json file from config/data.json
-  const config = $.getJSON("config/data.json", { mode: "no-cors" });
-  // get title, subtitle, location, date and hoster from json file
-  const index_json = config["index"];
-  // Set title, subtitle, location, date and hoster to html by id
-  document.getElementById("title").innerHTML = index_json["title"];
-  document.getElementById("subtitle").innerHTML = index_json["subtitle"];
-  document.getElementById("location").innerHTML = index_json["location"];
-  document.getElementById("date").innerHTML = index_json["date"];
-  document.getElementById("hoster").innerHTML = index_json["hoster"];
+  $.getJSON("config/data.json", { mode: "no-cors" })
+    .done(function (config) {
+      // Get title, subtitle, location, date, and hoster from the JSON file
+      const index_json = config["index"];
+
+      // Set title, subtitle, location, date, and hoster to HTML by id
+      document.getElementById("title").innerText = index_json["title"];
+      document.getElementById("subtitle").innerText = index_json["subtitle"];
+      document.getElementById("location").innerText = index_json["location"];
+      document.getElementById("date").innerText = index_json["date"];
+      document.getElementById("hoster").innerText = index_json["hoster"];
+    })
+    .fail(function (jqxhr, textStatus, error) {
+      console.log("Error reading JSON file: " + error);
+    });
 });
