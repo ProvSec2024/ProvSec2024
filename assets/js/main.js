@@ -24,6 +24,7 @@ $(document).ready(function () {
       document.getElementById("hoster").innerText = index_json["hoster"];
       // Setting CFP page
       const cfp_json = config["cfp"];
+      document.getElementById("cfp_title").innerText = cfp_json["title"];
       document.getElementById("cfp_sub_date").innerText = cfp_json["sub_date"];
       document.getElementById("cfp_notification_date").innerText =
         cfp_json["notification_date"];
