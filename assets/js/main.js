@@ -22,20 +22,6 @@ $(document).ready(function () {
       document.getElementById("location").innerText = index_json["location"];
       document.getElementById("date").innerText = index_json["date"];
       document.getElementById("hoster").innerText = index_json["hoster"];
-      // Setting CFP page
-      const cfp_json = config["cfp"];
-      document.getElementById("cfp_title").innerText = cfp_json["title"];
-      document.getElementById("cfp_instruction").innerText =
-        cfp_json["cfp_instruction"];
-      document.getElementById("cfp_guideline").innerText =
-        cfp_json["cfp_guideline"];
-      document.getElementById("cfp_sub_date").innerText = cfp_json["sub_date"];
-      document.getElementById("cfp_notification_date").innerText =
-        cfp_json["notification_date"];
-      document.getElementById("cfp_camera_ready_date").innerText =
-        cfp_json["camera_ready_date"];
-      document.getElementById("cfp_conference_date").innerText =
-        cfp_json["conference_date"];
     })
     .fail(function (jqxhr, textStatus, error) {
       console.log("Error reading JSON file: " + error);
