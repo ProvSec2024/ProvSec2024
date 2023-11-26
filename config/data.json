@@ -18,5 +18,13 @@
     "camera_ready_date": "Camera Ready: 20 July 2024",
     "conference_date": "Conference: 25-27 September, 2024"
   },
-  "committee": {}
+  "committee": {},
+  "venue": {
+    "surfers_paradise_beach_url": "https://www.queensland.com/au/en/things-to-do/attractions/p-56b26568d5f1565045da88d9-surfers-paradise-beach",
+    "sea_world_url": "https://seaworld.com.au/",
+    "skypoint_url": "https://skypoint.com.au/",
+    "currumbin_wildlife_sanctuary_url": "https://currumbinsanctuary.com.au/",
+    "burleugh_heads_url": "https://parks.des.qld.gov.au/parks/burleigh-head",
+    "gold_coast_hinterland_url": "https://www.queensland.com/au/en/places-to-see/destinations/gold-coast/gold-coast-hinterland"
+  }
 }
