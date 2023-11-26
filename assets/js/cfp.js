@@ -16,6 +16,8 @@ $(document).ready(function () {
     .done(function (config) {
       // Setting CFP page
       const cfp_json = config["cfp"];
+      document.getElementById("cfp_description").innerText =
+        cfp_json["description"];
       document.getElementById("cfp_title").innerText = cfp_json["title"];
       // document.getElementById("cfp_instruction").innerText =
       //   cfp_json["cfp_instruction"];
