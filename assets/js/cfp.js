@@ -21,8 +21,9 @@ $(document).ready(function () {
       document.getElementById("cfp_title").innerText = cfp_json["title"];
       document.getElementById("cfp_instruction").innerText =
         cfp_json["cfp_instruction"];
-      // document.getElementById("cfp_guideline").innerText =
-      //   cfp_json["cfp_guideline"];
+      document.getElementById("cfp_lncs_url").href = cfp_json["cfp_lncs_url"];
+      document.getElementById("cfp_lncs_url").innerText =
+        cfp_json["cfp_lncs_url"];
       document.getElementById("cfp_sub_date").innerText = cfp_json["sub_date"];
       document.getElementById("cfp_notification_date").innerText =
         cfp_json["notification_date"];
