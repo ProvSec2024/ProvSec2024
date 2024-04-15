@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /$
+Allow: /ProvSec2024/
+Allow: /ProvSec2024/index.html
+Allow: /ProvSec2024/cfp.html
+Allow: /ProvSec2024/committee.html
+Allow: /ProvSec2024/venue.html
+
+Disallow: /private/
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /uploads/
