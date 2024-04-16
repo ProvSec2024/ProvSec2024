@@ -15,7 +15,7 @@ $(document).ready(function () {
   $.getJSON("config/committee.json", { mode: "no-cors" })
     .done(function (config) {
       // Define a function to process committee data
-      function processCommitteeData(data, containerId) {
+      function processCommitteeData(data, containerNameId, containerOrgId) {
         data.forEach((member) => {
           const {
             "First Name": fName,
@@ -23,11 +23,18 @@ $(document).ready(function () {
             Affiliation: affiliation,
             Country: country,
           } = member;
-          const info = `${fName} ${lName}, ${affiliation}, ${country}`;
+          const name = `${fName} ${lName}`;
+          const org_name = `${affiliation}, ${country}`;
+          //   const info = `${fName} ${lName}, ${affiliation}, ${country}`;
+
           const p = document.createElement("p");
           p.className = "h4 mb-1";
-          p.innerText = info;
-          document.getElementById(containerId).appendChild(p);
+          p.innerText = name;
+          document.getElementById(containerNameId).appendChild(p);
+          const p2 = document.createElement("p");
+          p2.className = "h4 mb-1";
+          p2.innerText = org_name;
+          document.getElementById(containerOrgId).appendChild(p2);
         });
       }
 
@@ -35,7 +42,8 @@ $(document).ready(function () {
       const committeeJson = config["committee"];
       processCommitteeData(
         committeeJson["program_committee"] || [],
-        "program_committee"
+        "program_committee_name",
+        "program_committee_org"
       );
       processCommitteeData(
         committeeJson["org_committee"] || [],
