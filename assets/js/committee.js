@@ -25,7 +25,7 @@ $(document).ready(function () {
           } = member;
           const info = `${fName} ${lName}, ${affiliation}, ${country}`;
           const p = document.createElement("p");
-          p.className = "h3 mb-1";
+          p.className = "h4 mb-1";
           p.innerText = info;
           document.getElementById(containerId).appendChild(p);
         });
