@@ -311,6 +311,14 @@
                 "Affiliation": "Monash University",
                 "Country": "Australia"
             }
+        ],
+        "web_chairs": [
+            {
+                "First Name": "Xiangwen",
+                "Last Name": "Yang",
+                "Affiliation": "Monash University",
+                "Country": "Australia"
+            }
         ]
     }
 }

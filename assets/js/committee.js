@@ -45,17 +45,25 @@ $(document).ready(function () {
         "program_committee_name",
         "program_committee_org"
       );
-      processCommitteeData(
-        committeeJson["org_committee"] || [],
-        "org_committee"
-      );
+      //   processCommitteeData(
+      //     committeeJson["org_committee"] || [],
+      //     "org_committee_name",
+      //     "org_committee_org"
+      //   );
       processCommitteeData(
         committeeJson["publication_co_chairs"] || [],
-        "publication_co_chairs"
+        "publication_co_chairs_name",
+        "publication_co_chairs_org"
       );
       processCommitteeData(
         committeeJson["publicity_co_chairs"] || [],
-        "publicity_co_chairs"
+        "publicity_co_chairs_name",
+        "publicity_co_chairs_org"
+      );
+      processCommitteeData(
+        committeeJson["web_chairs"] || [],
+        "web_chairs_name",
+        "web_chairs_org"
       );
     })
     .fail(function (jqxhr, textStatus, error) {
