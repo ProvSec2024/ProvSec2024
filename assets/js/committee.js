@@ -25,7 +25,7 @@ $(document).ready(function () {
         // <p class="h3 mb-0">Xiangwen Yang, Monash University, Australia</p>
         const info = name + ", " + affiliation + ", " + country;
         const p = document.createElement("p");
-        p.className = "h3 mb-0";
+        p.className = "h3 mb-1";
         p.innerText = info;
         document.getElementById("publicity_co_chairs").appendChild(p);
       });
