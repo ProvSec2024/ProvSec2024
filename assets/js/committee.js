@@ -40,8 +40,13 @@ $(document).ready(function () {
 
       // Process different committee types
       const committeeJson = config["committee"];
+      const program_committee = committeeJson["program_committee"];
+      // sort by last name
+      program_committee.sort((a, b) =>
+        a["Last Name"].localeCompare(b["Last Name"])
+      );
       processCommitteeData(
-        committeeJson["program_committee"] || [],
+        program_committee || [],
         "program_committee_name",
         "program_committee_org"
       );
