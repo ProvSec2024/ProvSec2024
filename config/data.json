@@ -20,21 +20,6 @@
     "camera_ready_date": "Camera Ready: 20 July 2024",
     "conference_date": "Conference: 25-27 September, 2024"
   },
-  "committee": {
-    "program_committee": [],
-    "publicity_co_chairs": [
-      {
-        "name": "Cong Zuo",
-        "affiliation": "Beijing Institute of Technology",
-        "country": "China"
-      },
-      {
-        "name": "Shujie Cui",
-        "affiliation": "Monash University",
-        "country": "Australia"
-      }
-    ]
-  },
   "venue": {
     "surfers_paradise_beach_url": "https://www.queensland.com/au/en/things-to-do/attractions/p-56b26568d5f1565045da88d9-surfers-paradise-beach",
     "sea_world_url": "https://seaworld.com.au/",

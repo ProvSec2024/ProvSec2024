@@ -12,23 +12,43 @@ $(document).ready(function () {
     .then((data) => {
       document.getElementById("footer").innerHTML = data;
     });
-  $.getJSON("config/data.json", { mode: "no-cors" })
+  $.getJSON("config/committee.json", { mode: "no-cors" })
     .done(function (config) {
-      // Setting CFP page
-      const committee_json = config["committee"];
-      const publicity_data = committee_json["publicity_co_chairs"];
-      // get each publicity member from the JSON file
-      publicity_data.forEach((member) => {
-        const name = member["name"];
-        const affiliation = member["affiliation"];
-        const country = member["country"];
-        // <p class="h3 mb-0">Xiangwen Yang, Monash University, Australia</p>
-        const info = name + ", " + affiliation + ", " + country;
-        const p = document.createElement("p");
-        p.className = "h3 mb-1";
-        p.innerText = info;
-        document.getElementById("publicity_co_chairs").appendChild(p);
-      });
+      // Define a function to process committee data
+      function processCommitteeData(data, containerId) {
+        data.forEach((member) => {
+          const {
+            "First Name": fName,
+            "Last Name": lName,
+            Affiliation: affiliation,
+            Country: country,
+          } = member;
+          const info = `${fName} ${lName}, ${affiliation}, ${country}`;
+          const p = document.createElement("p");
+          p.className = "h3 mb-1";
+          p.innerText = info;
+          document.getElementById(containerId).appendChild(p);
+        });
+      }
+
+      // Process different committee types
+      const committeeJson = config["committee"];
+      processCommitteeData(
+        committeeJson["program_committee"] || [],
+        "program_committee"
+      );
+      processCommitteeData(
+        committeeJson["org_committee"] || [],
+        "org_committee"
+      );
+      processCommitteeData(
+        committeeJson["publication_co_chairs"] || [],
+        "publication_co_chairs"
+      );
+      processCommitteeData(
+        committeeJson["publicity_co_chairs"] || [],
+        "publicity_co_chairs"
+      );
     })
     .fail(function (jqxhr, textStatus, error) {
       console.log("Error reading JSON file: " + error);
