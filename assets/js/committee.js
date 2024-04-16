@@ -16,7 +16,7 @@ $(document).ready(function () {
     .done(function (config) {
       // Setting CFP page
       const committee_json = config["committee"];
-      const publicity_data = committee_json["publicity"];
+      const publicity_data = committee_json["publicity_co_chairs"];
       // get each publicity member from the JSON file
       publicity_data.forEach((member) => {
         const name = member["name"];
