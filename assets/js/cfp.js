@@ -30,9 +30,9 @@ $(document).ready(function () {
       const newDate = " 12 June 2024 (A.O.E.) - firmed!";
 
       // document.getElementById("cfp_sub_date").innerText = cfp_json["sub_date"];
-      document.getElementById("cfp_sub_date").innerText = `Paper Submission: 
-      <del text-decoration: line-through;">${originalDate} </del>
-      <span style="color: red;">${newDate}</span>`;
+      // document.getElementById("cfp_sub_date").innerText = `Paper Submission:
+      // <del text-decoration: line-through;">${originalDate} </del>
+      // <span style="color: red;">${newDate}</span>`;
       document.getElementById("cfp_notification_date").innerText =
         cfp_json["notification_date"];
       document.getElementById("cfp_camera_ready_date").innerText =
