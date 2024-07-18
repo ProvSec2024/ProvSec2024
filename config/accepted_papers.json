@@ -1,0 +1,314 @@
+{
+    "full_papers": [
+        {
+            "title": "Model Extraction Attack on MPC Hardened Vertical Federated Learning",
+            "authors": [
+                "Xinqian Wang (RMIT University, Australia)",
+                "Xiaoning Liu (RMIT University, Australia)",
+                "Xun Yi (RMIT University, Australia)"
+            ]
+        },
+        {
+            "title": "Communication-Efficient Secure Neural Network via Key-Reduced Distributed Comparison Function",
+            "authors": [
+                "Peng Yang (Harbin Institute of Technology ShenZhen, China)",
+                "Zoe Lin Jiang (Harbin Institute of Technology ShenZhen, China)",
+                "Shiqi Gao (Harbin Institute of Technology ShenZhen, China)",
+                "Hongxiao Wang (The University of Hong Kong, Hong Kong)",
+                "Jun Zhou (Shanghai Pudong Development Bank, China)",
+                "Yangyiye Jin (Shanghai Pudong Development Bank, China)",
+                "Siuming Yiu (The University of Hong Kong, Hong Kong)",
+                "Junbin Fang (Jinan University, China)"
+            ]
+        },
+        {
+            "title": "Verifiable Conjunctive Searchable Symmetric Encryption with Result Pattern Hiding",
+            "authors": [
+                "Huy-Hoang Chung-Nguyen (Monash University, Australia)",
+                "Dandan Yuan (University of Auckland, New Zealand)",
+                "Shujie Cui (Monash University, Australia)"
+            ]
+        },
+        {
+            "title": "PDTS: Practical Data Trading Scheme in Distributed Environments",
+            "authors": [
+                "Kun Wang (Beihang University, China)",
+                "Qianhong Wu (Beihang University, China)",
+                "Tianxu Han (Beihang University, China)",
+                "Sipeng Xie (Beihang University, China)",
+                "Qin Wang (UNSW, Australia)",
+                "Yingmiao Zhang (Beihang University, China)",
+                "Bo Qin (Renmin University of China, China)",
+                "Xiaopeng Dai (Beihang University, China)"
+            ]
+        },
+        {
+            "title": "Simple Construction of PEKS from LWE-based IBE in the Standard Model",
+            "authors": [
+                "Hirotomo Shinoki (Hitachi, Japan)",
+                "Hisayoshi Sato (Hitachi, Japan)",
+                "Masayuki Yoshino (Hitachi, Japan)"
+            ]
+        },
+        {
+            "title": "Semi-Compressed CRYSTALS-Kyber",
+            "authors": [
+                "Shuiyin Liu (Holmes Institute, Australia)",
+                "Amin Sakzad (Monash University, Australia)"
+            ]
+        },
+        {
+            "title": "Lattice-Based Non-Interactive Blind Signature Schemes in the Random Oracle Model",
+            "authors": [
+                "Haoqi Zhang (South China Agricultural University, China)",
+                "Xinjian Chen (South China Agricultural University, China)",
+                "Qiong Huang (South China Agricultural University, China)"
+            ]
+        },
+        {
+            "title": "Blocklistable Anonymous Credential for Circuits with Post-Quantum Security",
+            "authors": [
+                "Zuoxia Yu (University of Wollongong, Australia)",
+                "Rupeng Yang (University of Wollongong, Australia)",
+                "Willy Susilo (University of Wollongong, Australia)",
+                "Man Ho Au (The Hong Kong Polytechnic University, Hong Kong)"
+            ]
+        },
+        {
+            "title": "ROM Reduction Failures: Reasons and Solutions",
+            "authors": [
+                "Ziyi Li (Chinese Academy of Sciences, China)",
+                "Xianhui Lu (Chinese Academy of Sciences, China)",
+                "Yao Cheng (Chinese Academy of Sciences, China)"
+            ]
+        },
+        {
+            "title": "Consecutive Adaptor Signature Scheme: From Two-Party to N-Party Settings",
+            "authors": [
+                "Kaisei Kajita (Japan Broadcasting Corporation, Japan)",
+                "Go Ohtake (Japan Broadcasting Corporation, Japan)",
+                "Tsuyoshi Takagi (The University of Tokyo, Japan)"
+            ]
+        },
+        {
+            "title": "On Sealed-bid Combinatorial Auction with Privacy-Preserving Dynamic Programming",
+            "authors": [
+                "Hong Yen Tran (UNSW Canberra, Australia)",
+                "Jiankun Hu (UNSW Canberra, Australia)",
+                "Shabnam Kasra Kermanshahi (UNSW Canberra, Australia)"
+            ]
+        },
+        {
+            "title": "Compressed Cookies: Practical Wildcard Symmetric Searchable Encryption with Optimized Storage",
+            "authors": [
+                "Jiaojiao Wu (Xidian University, China)",
+                "Kai Du (Xidian University, China)",
+                "Jianfeng Wang (Xidian University, China)",
+                "Shi-Feng Sun (Shanghai Jiao Tong University, China)",
+                "Yunling Wang (Xi’an University of Posts and Telecommunications, China)",
+                "Yong Li (Huawei Technologies Düsseldorf GmbH, Germany)",
+                "Wenyuan Tian (Beijing Huawei Digital Technologies, China)",
+                "Yusen Wang (Beijing Huawei Digital Technologies, China)"
+            ]
+        },
+        {
+            "title": "Threshold Ring Signatures: From DualRing to the t+1 Rings",
+            "authors": [
+                "Tsz Hon Yuen (Monash University, Australia)",
+                "Shimin Pan (The University of Hong Kong, Hong Kong)"
+            ]
+        },
+        {
+            "title": "Asynchronous Byzantine Fault Tolerance Reliable Broadcast Based on Directed Acyclic Graph",
+            "authors": [
+                "Haibo Tian (Sun Yat-Sen University, China)",
+                "Jiajun Chen (Sun Yat-Sen University, China)"
+            ]
+        },
+        {
+            "title": "PPA-DCA: A Privacy-Preserving and Accountable Data Collection and Analysis Scheme Using Decentralized Multi-Client Functional Encryption",
+            "authors": [
+                "Meixin Chen (East China Normal University, China)",
+                "Jie Chen (East China Normal University, China)",
+                "Guang Zhang (East China Normal University, China)",
+                "Qiaohan Chu (East China Normal University, China)"
+            ]
+        },
+        {
+            "title": "BDEC: Enhancing Learning Credibility via Post-Quantum Digital Credentials",
+            "authors": [
+                "Xinyu Zhang (Monash University, Australia)",
+                "Zoey Ziyi Li (Monash University, Australia)",
+                "Hui Cui (Monash University, Australia)",
+                "Jun Zhao (Monash University, Australia)",
+                "Xuan Chen (Monash University, Australia)"
+            ]
+        },
+        {
+            "title": "Efficient Variants of TNT with BBB Security",
+            "authors": [
+                "Avijit Dutta (TCG CREST, India)",
+                "Wonseok Choi (Purdue University, US)",
+                "Yaobin Shen (Xiamen University, China)",
+                "Ritam Bhaumik (Technology Innovation Institute Abu Dhabi, United Arab Emirates)",
+                "Cuauhtemoc Mancillas Lopez (CINVESTAV IPN, México)",
+                "Hrithik Nandi (TCG CREST, India)"
+            ]
+        },
+        {
+            "title": "SecFloatPlus: More Accurate Floating-Point Meets Secure Two-Party Computation",
+            "authors": [
+                "Tao Huang (Jinan University, China)",
+                "Jian Weng (Jinan University, China)",
+                "Jiasi Weng (Jinan University, China)",
+                "Min-Rong Chen (South China Normal University, China)",
+                "Ming Li (Jinan University, China)"
+            ]
+        },
+        {
+            "title": "Enabling Efficient Cross-Shard Smart Contract Calling via Overlapping",
+            "authors": [
+                "Zixu Zhang (University of Technology Sydney, Australia)",
+                "Hongbo Yin (Chongqing University of Posts and Telecommunications, China)",
+                "Ying Wang (Hangzhou Dianzi University, China)",
+                "Guangsheng Yu (Data 61 CSIRO, Australia)",
+                "Xu Wang (University of Technology Sydney, Australia)",
+                "Wei Ni (Data 61 CSIRO, Australia)",
+                "Ren Ping Liu (University of Technology Sydney, Australia)"
+            ]
+        },
+        {
+            "title": "Efficient Fork-Free BLS Multi-Signature Scheme with Incremental Signing",
+            "authors": [
+                "Syh-Yuan Tan (Multimedia University, Malaysia)",
+                "Tiong-Sik Ng (Yonsei University, South Korea)",
+                "Swee-Huay Heng (Multimedia University, Malaysia)"
+            ]
+        },
+        {
+            "title": "Traceable Ring Signatures: Logarithmic-Size, Without Any Setup, from Standard Assumptions",
+            "authors": [
+                "Xuan Thanh Khuc (University of Wollongong, Australia)",
+                "Willy Susilo (University of Wollongong, Australia)",
+                "Dung Hoang Duong (University of Wollongong, Australia)",
+                "Fuchun Guo (University of Wollongong, Australia)",
+                "Kazuhide Fukushima (KDDI Research, Japan)",
+                "Shinsaku Kiyomoto (KDDI Research, Japan)"
+            ]
+        },
+        {
+            "title": "Tightly Secure Identity-based Signature from Cryptographic Group Actions",
+            "authors": [
+                "Xuan Thanh Khuc (University of Wollongong, Australia)",
+                "Willy Susilo (University of Wollongong, Australia)",
+                "Dung Hoang Duong (University of Wollongong, Australia)",
+                "Fuchun Guo (University of Wollongong, Australia)",
+                "Hyungrok Jo (Yokohama National University, Japan)",
+                "Tsuyoshi Takagi (The University of Tokyo, Japan)"
+            ]
+        },
+        {
+            "title": "Ideal Public Key Encryption, Revisited",
+            "authors": [
+                "Yao Cheng (Chinese Academy of Sciences, China)",
+                "Xianhui Lu (Chinese Academy of Sciences, China)",
+                "Ziyi Li (Chinese Academy of Sciences, China)",
+                "Bao Li (Chinese Academy of Sciences, China)"
+            ]
+        },
+        {
+            "title": "Secure Five-party Computation with Private Robustness and Minimal Online Communication",
+            "authors": [
+                "Hikaru Tsuchida (Saitama Institute of Technology, Japan)",
+                "Takashi Nishide (University of Tsukuba, Japan)"
+            ]
+        },
+        {
+            "title": "Generic Construction of Withdrawable Signature from Hash-Then-One-Way Signature",
+            "authors": [
+                "Xin Liu (University of Wollongong, Australia)",
+                "Willy Susilo (University of Wollongong, Australia)",
+                "Joonsang Baek (University of Wollongong, Australia)"
+            ]
+        },
+        {
+            "title": "Subversion-Resilient Authenticated Key Exchange with Reverse Firewalls",
+            "authors": [
+                "Jiahao Liu (National University of Defense Technology, China)",
+                "Rongmao Chen (National University of Defense Technology, China)",
+                "Yi Wang (National University of Defense Technology, China)",
+                "Xincheng Tang (National University of Defense Technology, China)",
+                "Jinshu Su (National University of Defense Technology, China)"
+            ]
+        }
+    ],
+    "short_papers": [
+        {
+            "title": "SePEnTra: A secure and privacy-preserving energy trading mechanism in the transactive energy market",
+            "authors": [
+                "Rumpa Dasgupta (Monash University, Australia)",
+                "Amin Sakzad (Monash University, Australia)",
+                "Carsten Rudolph (Monash University, Australia)",
+                "Rafael Dowsley (Monash University, Australia)"
+            ]
+        },
+        {
+            "title": "On Multi-user Security of Lattice-based Signature under Adaptive Corruptions and Key Leakages",
+            "authors": [
+                "Masayuki Fukumitsu (University of Nagasaki, Japan)",
+                "Shingo Hasegawa (Fukushima University, Japan)"
+            ]
+        },
+        {
+            "title": "Reusable Fuzzy Extractor from Isogeny",
+            "authors": [
+                "Yu Zhou (Shanghai Jiao Tong University, China)",
+                "Shengli Liu (Shanghai Jiao Tong University, China)",
+                "Shuai Han (Shanghai Jiao Tong University, China)"
+            ]
+        },
+        {
+            "title": "Ensuring Fair Data Trading via Passive Proxy Re-encryption with Smart Contracts",
+            "authors": [
+                "Peng Zhang (Shenzhen University, China)",
+                "Jiaquan Wei (Shenzhen University, China)",
+                "Yuhong Liu (Santa Clara University, US)",
+                "Jianzhou Ruan (Shenzhen University, China)",
+                "Hui Cui (Monash University, Australia)"
+            ]
+        },
+        {
+            "title": "DPAC: A New Data-centric Privacy-preserving Access Control Model",
+            "authors": [
+                "Xu Wang (University of Technology Sydney, Australia)",
+                "Baihe Ma (University of Technology Sydney, Australia)",
+                "Ren Ping Liu (University of Technology Sydney, Australia)",
+                "Ian Oppermann (University of Technology Sydney, Australia)"
+            ]
+        },
+        {
+            "title": "Improving the Accuracy of Transaction-Based Ponzi Detection on Ethereum",
+            "authors": [
+                "Phuong Duy Huynh (RMIT University, Australia)",
+                "Son Hoang Dau (RMIT University, Australia)",
+                "Xiaodong Li (RMIT University, Australia)",
+                "Phuc Luong (Monash University, Australia)",
+                "Emanuele Viterb (Monash University, Australia)"
+            ]
+        },
+        {
+            "title": "A2V: Anonymous and Accountable Voting Framework via Blockchain",
+            "authors": [
+                "Zhimei Sui (Shanghai University, China)",
+                "Liangrong Zhao (Monash University, Australia)"
+            ]
+        },
+        {
+            "title": "Quantum Safe Computation-friendly Identity-binding Password Authenticated Key Exchanges",
+            "authors": [
+                "Pratima Jana (Indian Institute of Technology Kharagpur, India)",
+                "Ratna Dutta (Indian Institute of Technology Kharagpur, India)"
+            ]
+        }
+    ]
+}

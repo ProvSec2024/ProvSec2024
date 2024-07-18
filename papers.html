@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Join ProvSec 2024, the 18th leading international conference on provable and practical security, in Gold Coast, Australia. Explore the latest in cybersecurity research and innovations. Call for papers now open!">
     <meta name="keywords" content="ProvSec2024, ProvSec 2024, Provable Security Conference 2024, Cybersecurity Research Conference, Security Conference Australia, ProvSec Gold Coast" />
+    
     <meta
       name="author"
       content="Wayne Yang, Monash Univeristy"
     />
     <meta name="generator" content="Hugo 0.118.2" />
-    <meta name="topic" content="Provsec 2024 Conference" />
-    <title>ProvSec 2024</title>
+    <meta name="topic" content="Provsec 2024" />
+    <title>Accpeted Papers - ProvSec 2024</title>
     <link
       rel="canonical"
       href="https://getbootstrap.com/docs/5.3/examples/blog/"
@@ -30,7 +31,7 @@
       rel="stylesheet"
     />
     <!-- Custom styles for this template -->
-    <link href="./style.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -62,13 +63,11 @@
     </svg>
 
     <div class="container">
-      <header class="border-bottom lh-1 py-3" id="header">
-  
-      </header>
-      <!-- Add an full width image at the top of nav bar -->
-      <div class="nav-scroller py-1 mb-3 border-bottom h4 mb-3">
+      <header class="border-bottom lh-1 py-3" id="header"></header>
+
+      <div class="nav-scroller py-1 mb-3 border-bottom h4">
         <nav class="nav nav-underline justify-content-between">
-          <a class="nav-item nav-link link-body-emphasis active" href="#"
+          <a class="nav-item nav-link link-body-emphasis" href="index.html"
             >Home</a
           >
           <a class="nav-item nav-link link-body-emphasis" href="cfp.html"
@@ -80,11 +79,13 @@
           <a class="nav-item nav-link link-body-emphasis" href="registration.html"
             >Registration</a
           >
-          <a class="nav-item nav-link link-body-emphasis" href="papers.html"
+          <a class="nav-item nav-link link-body-emphasis active" href="papers.html"
             >Accepted Papers</a
           >
           <a class="nav-item nav-link link-body-emphasis" href="#">Programme</a>
-          <a class="nav-item nav-link link-body-emphasis" href="venue.html">Venue</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#"
+            >Venue</a
+          >
           <a class="nav-item nav-link link-body-emphasis" href="#">Keynotes</a>
           <a class="nav-item nav-link link-body-emphasis" href="#">About</a>
         </nav>
@@ -95,75 +96,63 @@
       <div class="row mb-2">
         <div class="col-md-12">
           <div
+            class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm  position-relative text-center"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <h1 class="mb-0 fw-bold">Accepted Paper List
+              </h1>
+            </div>
+          </div>
+          <!-- Show Full Paper List -->
+          <div
             class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
           >
             <div class="col p-4 d-flex flex-column position-static">
-              <h1 class="mb-0" id="title">
-                The 18th International Conference on Provable and Practical
-                Security
-              </h1>
-              <!-- Add Calendar to show the Proposed Dates -->
-              <h2 class="mt-3" id="subtitle">(ProvSec 2024)</h2>
-              <h2 class="mt-0 mb-3" id="location">Gold Coast, Australia</h2>
-              <div class="row mt-5">
-                <div class="row col-md-6 align-items-center">
-                  <div
-                    class="col-md-12 d-flex justify-content-center align-items-center"
-                  >
-                    <!-- Import a svg -->
-                    <img
-                      class="bd-placeholder-img"
-                      src="./assets/icon/calendar-outline/128x128.png"
-                      alt="Placeholder"
-                    />
-                  </div>
-                  <div class="col-md-12 text-center mt-3">
-                    <h2 class="fw-bold">Date:</h2>
-                    <h2 id="date">25-27 Sep, 2024</h2>
-                  </div>
-                </div>
-                <div class="row col-md-6 align-items-center">
-                  <div class="col-md-12 d-flex justify-content-center align-items-center">
-                    <!-- Import a svg -->
-                    <img
-                      class="bd-placeholder-img"
-                      style="width: 128px;height: 128px;"
-                      src="./assets/icon/location-pin.svg"
-                      alt="Placeholder"
-                    />
-                  </div>
-                  <div class="col-md-12 text-center mt-3">
-                    <h2 class="fw-bold">Location:</h2>
-                    <h2 id="hoster"></h2>
-                  </div>
-                </div>
+              <h1 class="mt-3 fw-bold">Full Paper List</h1>
+              <div class="container px-4 py-5" id="full-paper-list">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">Title</th>
+                      <th scope="col">Author</th>
+                    </tr>
+                  </thead>
+                  <tbody id="full-paper-list">
+                    
+                  </tbody>
+                </table>
               </div>
-              <div class="justify-content-center; align-items-center">
-                <h2 style="color: red;"> Paper Submission extended to 12 June 2024 (A.O.E.) (firmed deadline).</h2>
-              </div>
-            </div>
-
-            <div class="col-auto d-none d-lg-block">
-              <img
-                class="bd-placeholder-img"
-                width="500"
-                height="625"
-                src="./assets/img/main.png"
-                alt="Placeholder"
-              />
             </div>
           </div>
-        </div>
+          <div
+            class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <h1 class="mt-3 fw-bold">Short Paper List</h1>
+              <div class="container px-4 py-5">
+                  <!-- Create a table with two columns-->
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col">Author</th>
+                      </tr>
+                    </thead>
+                    <tbody id="short-paper-list">
+                      
+                    </tbody>
+              </div>
+            </div>
+          </div>
       </div>
       <div id="footer"></div>
     </main>
-
-    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Import JQuery -->
     <script
       src="./assets/js/jquery-3.7.1.min.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/papers.js"></script>
   </body>
 </html>
